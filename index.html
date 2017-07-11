@@ -1,0 +1,50 @@
+<html>
+<head>
+<!--Bootsrapt CSS-->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<!--External Stylesheet-->
+<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+<!--Jquery (needed for Bootstrap js to work-->
+<script src="js/jquery.min.js"></script>
+<!--Bootsrap js-->
+<script src="js/bootstrap.min.js"></script>
+<!--Calling our script code-->
+<script type="text/javascript" src="js/script.js"></script>
+<title>Pomodora Clock</title>
+  <body>
+    <div class="container">
+      <h1>Pomodoro Clock</h1>
+      <div class="row" id="top">
+        <div class="col-xs-6 break-session">
+          <p>Break Length<p>
+          <button class="btn btn-danger" id="minusBreakButton">-</button>
+          <span id="breakNumberDisplay"> 5 </span>
+          <button class="btn btn-info" id="addBreakButton">+</button>
+         </div>
+
+         <div class="col-xs-6 break-session">
+          <p>Session Length<p>
+          <button class="btn btn-danger" id="minusSessionButton">-</button>
+          <span id="sessionNumberDisplay"> 25 </span>
+          <button class="btn btn-info" id="addSessionButton">+</button>
+         </div>
+      </div>
+
+      <div class="row display-Timer">
+
+        <div id="timer" classs="col-xs-12">
+          <div id="filler"></div>
+          <div id="displayName">Session</div>
+          <div id="displayTime">25</div>
+        </div>
+      </div>
+      
+      <div class="row" id="controlButtons">
+        <div class="col-xs-12 btn btn-info" id="startButton">Start</div>
+        <div class="col-xs-5 btn btn-info" id="pauseButton">Pause</div>
+        <div class="col-xs-5 btn btn-info" id="resumeButton">Resume</div>
+        <div class="col-xs-2"></div>
+        <div class="col-xs-5 btn btn-danger" id="resetButton">Reset</div>
+      </div>
+    </div>
+  </body>

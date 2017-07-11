@@ -1,0 +1,64 @@
+html body{
+  text-align: center;
+  font-family: Montserratt;
+  margin: 0;
+  background-color: #EEFDFF;
+  background-size: cover;
+}
+
+.container{
+  border: 2px solid rgba(120, 190, 195, 0.6);
+  width: 375px;
+  margin: 0 auto;
+  background-color: rgba(120, 190, 195, 0.6);
+  font-weight: bold;
+  font-color: black;
+  margin-top: 20px;
+  box-shadow: 4px 4px 4px 4px rgba(40, 40, 40, 0.6);
+  padding-bottom: 20px;
+}
+.break-session{
+  font-size: 20px;
+}
+.display-Timer{
+  padding: 30px 0 20px 0;
+}
+#timer{
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  border: 4px solid #46b8da;
+  font-size: 45px;
+  position: relative;
+  overflow: hidden;
+	margin: 0 auto;
+}
+#filler{
+  height: 0;
+	width: 300px;
+	background-color: rgba(70, 184, 218, 0.4);
+	position: absolute;
+	bottom: 0;
+}
+#id{
+  position: relative;
+  margin-top: 50px;
+}
+#myBar{
+  width: 400px;
+  height: 100%;
+  background: lightgrey;
+}
+#myProgress{
+  height: 30px;
+  width: 10px;
+  background-color: red;
+}
+#displayName{
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+#startButton, #pauseButton, #resetButton, #resumeButton{
+  font-size: 20px;
+  margin-left: 0;
+}
